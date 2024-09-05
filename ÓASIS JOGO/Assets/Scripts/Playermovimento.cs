@@ -30,23 +30,6 @@ public class Playermovimento : MonoBehaviour
         AtualizarPosicaoVisual(tabuleiro.posicoesJogadores[indiceJogador]);
     }
 
-    private void Update()
-    {
-        // Verifica se o jogador pressiona a tecla "Espaço" e se pode se mover
-        if (Input.GetKeyDown(KeyCode.Space) && podeMover)
-        {
-            // Simula um turno do jogador ao pressionar "Espaço"
-            Turno();
-            podeMover = false; // Desativa o movimento até o próximo turno
-        }
-
-        // Exemplo: para resetar o movimento para testes, pressiona "R"
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            podeMover = true; // Permite o jogador se mover novamente
-        }
-    }
-
     // Método para mover o jogador no tabuleiro
     public void Mover(int passos)
     {
