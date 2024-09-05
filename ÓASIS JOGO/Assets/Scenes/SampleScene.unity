@@ -202,7 +202,7 @@ Transform:
   m_GameObject: {fileID: 127682607}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.3109643, y: -46.008526, z: 0}
+  m_LocalPosition: {x: 20.69, y: -15.59, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -220,7 +220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43eb23fbc00372c47bb5a4033aeb9274, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  posicoesJogadores: 00000000000000000000000000000000
+  posicoesJogadores: 00000000000000000000000004000000
 --- !u!1 &397650709
 GameObject:
   m_ObjectHideFlags: 0
@@ -491,7 +491,7 @@ Transform:
   m_GameObject: {fileID: 540802027}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.124385715, y: -15.210982, z: 0}
+  m_LocalPosition: {x: 20.63, y: 0.04, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -509,7 +509,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43eb23fbc00372c47bb5a4033aeb9274, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  posicoesJogadores: 00000000000000000000000000000000
+  posicoesJogadores: 00000000020000000000000000000000
 --- !u!1 &770845786
 GameObject:
   m_ObjectHideFlags: 0
@@ -691,7 +691,7 @@ Transform:
   m_GameObject: {fileID: 801890710}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.24877143, y: -30.547157, z: 0}
+  m_LocalPosition: {x: -0.08, y: -15.38, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -709,7 +709,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43eb23fbc00372c47bb5a4033aeb9274, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  posicoesJogadores: 00000000000000000000000000000000
+  posicoesJogadores: 00000000000000000300000000000000
 --- !u!1 &1403630814
 GameObject:
   m_ObjectHideFlags: 0
@@ -902,7 +902,7 @@ Transform:
   m_GameObject: {fileID: 1453799797}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 246, y: -169, z: 0}
+  m_LocalPosition: {x: 366, y: 93, z: 0}
   m_LocalScale: {x: 103.829056, y: 72.734116, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1182,7 +1182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43eb23fbc00372c47bb5a4033aeb9274, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  posicoesJogadores: 00000000000000000000000000000000
+  posicoesJogadores: 01000000000000000000000000000000
 --- !u!1 &2022121364
 GameObject:
   m_ObjectHideFlags: 0
