@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Turnos : MonoBehaviour
 {
+    // Referência ao script do movimento dos jogadores
     public Playermovimento[] jogadores;
 
     // Índice do jogador atual
@@ -38,7 +39,8 @@ public class Turnos : MonoBehaviour
             jogadores[i].gameObject.SetActive(i == jogadorAtualIndex);
         }
 
-       
+        // Permite que o jogador atual escolha o número de passos
+        dadosJogador.PermitirNovaEscolha();
     }
 
     // Passa o turno para o próximo jogador

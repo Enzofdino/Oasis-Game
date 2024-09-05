@@ -4,8 +4,20 @@ using UnityEngine;
 
 public class DadosJogador : MonoBehaviour
 {
-    // Referência ao script de movimento do jogador
+    // Referência ao script do movimento do jogador
     public Playermovimento movimentoJogador;
+
+    // Flag para controlar se o jogador pode escolher o movimento
+    public bool podeEscolher = true;
+
+    private void Update()
+    {
+        // Verifica se o jogador pode escolher quantas casas andar
+        if (podeEscolher)
+        {
+            EscolherPassos();
+        }
+    }
 
     // Método para o jogador escolher quantas casas quer andar
     private void EscolherPassos()
@@ -46,6 +58,13 @@ public class DadosJogador : MonoBehaviour
         Debug.Log($"Jogador escolheu andar {passos} passos.");
 
         // Desativa a escolha para passar o turno
-        FindObjectOfType<ControleTurnos>().PassarTurno(); // Passa o turno para o próximo jogador
+        FindObjectOfType<Turnos>().PassarTurno(); // Passa o turno para o próximo jogador
+        podeEscolher = false; // Desativa a escolha até o próximo turno
+    }
+
+    // Método para permitir uma nova escolha (pode ser chamado externamente)
+    public void PermitirNovaEscolha()
+    {
+        podeEscolher = true;
     }
 }
